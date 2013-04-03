@@ -131,6 +131,7 @@ class packages {
     # post-gnome
     'firefox',
     'unzip',
+    'git',
   ]
 
   package { $dvn_packages:

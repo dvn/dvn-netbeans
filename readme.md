@@ -4,7 +4,7 @@
 
 ## What is this?
 
-This git repo allows you to practice setting up a Dataverse Network (DVN) development environment on a virtual machine (VM) on your computer.
+This git repo allows you to practice setting up a Dataverse Network (DVN) development environment on a virtual machine (VM) on your computer by following http://dvn.github.com/dvn-sourceforge2github/dvn-dev-on-github/quickstart/
 
 The VM will be running CentOS 6 and we will be installing:
 
@@ -26,6 +26,8 @@ Right now we're using openjdk, which might be why the build is failing:
     exists or setup the property manually. For example like this:
      ant -Dlibs.CopyLibs.classpath=a/path/to/org-netbeans-modules-java-j2seproject-copylibstask.jar
     BUILD FAILED (total time: 0 seconds)
+
+(It may have to do with how we're installing NetBeans and GlassFish... see the "downloads" directory.)
 
 "Resolve Reference Problems" says the following libraries are missing:
 

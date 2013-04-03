@@ -6,12 +6,17 @@
 
 This git repo allows you to practice setting up a Dataverse Network (DVN) development environment on a virtual machine (VM) on your computer by following http://dvn.github.com/dvn-sourceforge2github/dvn-dev-on-github/quickstart/
 
-Please note: the Vagrant part of this is not fully automated. Due to changes between CentOS 6.3 and 6.4, you must make sure the packages you get when installing GNOME are from 6.3.
+Before you can use this git repo, you need to install VirtualBox from https://virtualbox.org and Vagrant from http://vagrantup.com 
 
-The VM will be running CentOS 6 and we will be installing:
+You'll create your VM with the following commands...
 
-- NetBeans
-- GlassFish
-- and more...
+    git clone https://github.com/dvn/dvn-netbeans.git
+    cd dvn-netbeans
+    vagrant up
 
-More to come! This repo is forked from https://github.com/dvn/dvn-install-demo and needs to be cleaned up...
+... and the last one will take a while. When it is finished, you can restart the VM (with a GUI this time) with these commands:
+
+    vagrant halt
+    vagrant up
+
+Then log into the CentOS GUI with vagrant (password is also vagrant) and unzip the files in /downloads. While you're in /downloads, run the script to download the components you'll need. Then start up NetBeans and follow the quickstart guide above.

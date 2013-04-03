@@ -130,6 +130,7 @@ class packages {
     'yelp',
     # post-gnome
     'firefox',
+    'unzip',
   ]
 
   package { $dvn_packages:

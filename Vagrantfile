@@ -8,7 +8,7 @@ Vagrant::Config.run do |config|
   config.vm.share_folder "downloads", "/downloads", "downloads"
   #config.vm.forward_port 80, 8888
 
-  config.vm.customize ["modifyvm", :id, "--memory", 1024]
+  config.vm.customize ["modifyvm", :id, "--memory", 2048]
 
   config.vm.provision :puppet do |puppet|
     puppet.manifests_path = "manifests"

@@ -132,6 +132,7 @@ class packages {
     'firefox',
     'unzip',
     'git',
+    'mlocate',
   ]
 
   package { $dvn_packages:

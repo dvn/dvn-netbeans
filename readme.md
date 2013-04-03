@@ -32,8 +32,8 @@ Right now we're using openjdk, which might be why the build is failing:
 "Resolve Reference Problems" says the following libraries are missing:
 
 - jsf20
-- Java-EE-Glassfish-v3
+- Java-EE-GlassFish-v3
 - junit
 - junit_4
-- javaee-endorsed-app-6.0
+- javaee-endorsed-api-6.0
 
